@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export REPOPATH=/home/monterab/repositories/montera/*
-    - export SITEPATH=/home/monterab/public_html/
+    - export REPOPATH=/home/thelessone/repositories/the_lessoner_card/*
+    - export SITEPATH=/home/thelessone/public_html/
     - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
